@@ -1,0 +1,19 @@
+div 
+    br
+    table(class="table")
+        br
+            if productos.length === 0
+            h2(style="color:red") No se encontraron datos
+            else 
+        thead
+        tr
+            th name 
+            th precio 
+            th imagen
+        
+        tbody
+        tr
+            th#{prouctos.name}
+            td#{productos.precio} 
+            td#{productos.imagen}
+        
